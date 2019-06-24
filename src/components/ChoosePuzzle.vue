@@ -1,6 +1,8 @@
 <template>
     <div class="choose-puzzle">
         <p>Choose a puzzle</p>
+
+        <p>{{ message }}</p>
     </div>
 </template>
 
@@ -8,6 +10,23 @@
 export default {
     name: "ChoosePuzzle",
     props: {
+    },
+    methods: {
+        onPageLoad() {
+            this.$store.dispatch('doPageLoad')
+                .then(() => this.message = this.$store.state.startMessage)
+                .catch(error => console.error(error));
+        }
+    },
+    data() {
+        return {
+            message: ''
+        }
+    },
+    mounted() {
+        this.onPageLoad();
+    },
+    computed: {
     }
 };
 </script>
