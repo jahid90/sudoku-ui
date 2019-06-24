@@ -1,9 +1,16 @@
 <template>
-    <div class="choose-puzzle">
-        <p>Choose a puzzle</p>
-
-        <p>{{ message }}</p>
-    </div>
+    <b-card-group deck>
+        <b-card bg-variant="secondary" text-variant="white">
+            <b-card-text>
+                Choose a puzzle
+            </b-card-text>
+        </b-card>
+        <b-card bg-variant="secondary" text-variant="white">
+            <b-card-text>
+                {{ message }}
+            </b-card-text>
+        </b-card>
+    </b-card-group>
 </template>
 
 <script>
