@@ -16,7 +16,7 @@ export default new Vuex.Store({
     actions: {
         doPageLoad(context) {
             return new Promise((resolve, reject) => {
-                axios.get('http://localhost:8080')
+                axios.get('http://sudoku-service:8080')
                     .then(response => {
                         context.commit('updateLoadMessage', response.data);
                         resolve();
