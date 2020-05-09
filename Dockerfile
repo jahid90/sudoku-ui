@@ -1,16 +1,20 @@
-FROM node:12-alpine
+# Build env
+FROM node:12-alpine as build
 
-RUN npm install -g http-server
-
-WORKDIR /usr/src/app
+WORKDIR /usr/app
 
 COPY package*.json ./
 RUN npm install
 
 COPY . ./
-
 RUN npm run build
 
-EXPOSE 8080
+# Production env
+FROM nginx:alpine
 
-CMD ["http-server", "dist"]
+COPY --from=build /usr/app/dist /usr/share/nginx/html
+
+EXPOSE 80
+
+CMD ["nginx", "-g", "daemon off;"]
+
