@@ -1,18 +1,19 @@
 # Build env
-FROM node:12-alpine as build
+# FROM node:12-alpine as build
 
-WORKDIR /usr/app
+# WORKDIR /usr/app
 
-COPY package*.json ./
-RUN npm install
+# COPY package*.json ./
+# RUN npm install
 
-COPY . ./
-RUN npm run build
+# COPY . ./
+# RUN npm run build
 
 # Production env
 FROM nginx:alpine
 
-COPY --from=build /usr/app/dist /usr/share/nginx/html
+# COPY --from=build /usr/app/dist /usr/share/nginx/html
+COPY ./dist /usr/share/nginx/html
 
 EXPOSE 80
 
