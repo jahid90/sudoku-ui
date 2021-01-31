@@ -1,7 +1,7 @@
 dependencies:
   axios: 0.21.1
   bootstrap: 4.5.3
-  bootstrap-vue: 2.18.0_vue@2.6.12
+  bootstrap-vue: 2.21.2_vue@2.6.12
   core-js: 3.6.5
   vue: 2.6.12
   vue-router: 3.4.7
@@ -2896,7 +2896,7 @@ packages:
     dev: true
     resolution:
       integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
-  /bootstrap-vue/2.18.0_vue@2.6.12:
+  /bootstrap-vue/2.21.2_vue@2.6.12:
     dependencies:
       '@nuxt/opencollective': 0.3.2
       bootstrap: 4.5.3_popper.js@1.16.1
@@ -2908,7 +2908,7 @@ packages:
       vue: '*'
     requiresBuild: true
     resolution:
-      integrity: sha512-3SfN0362QTTtoq8KL1ZmNGlg5UwszOrWteuX4a1VSbmY86C9FF1ipT5o2AM0GLGLeNEEMIT4YIzbHtqru6XEIQ==
+      integrity: sha512-0Exe+4MZysqhZNXIKf4TzkvXaupxh9EHsoCRez0o5Dc0J7rlafayOEwql63qXv74CgZO8E4U8ugRNJko1vMvNw==
   /bootstrap/4.5.3:
     dev: false
     peerDependencies:
@@ -11730,7 +11730,7 @@ specifiers:
   babel-eslint: 10.1.0
   babel-jest: 26.6.0
   bootstrap: 4.5.3
-  bootstrap-vue: 2.18.0
+  bootstrap-vue: 2.21.2
   core-js: 3.6.5
   eslint: 7.10.0
   eslint-plugin-vue: 7.1.0
