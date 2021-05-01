@@ -14,7 +14,7 @@ specifiers:
   babel-jest: 26.6.3
   bootstrap: 4.6.0
   bootstrap-vue: 2.21.2
-  core-js: 3.9.1
+  core-js: 3.11.1
   eslint: 7.25.0
   eslint-plugin-vue: 7.8.0
   node-sass: 5.0.0
@@ -28,7 +28,7 @@ dependencies:
   axios: 0.21.1
   bootstrap: 4.6.0
   bootstrap-vue: 2.21.2_vue@2.6.12
-  core-js: 3.9.1
+  core-js: 3.11.1
   vue: 2.6.12
   vue-router: 3.5.1
   vuex: 3.6.2_vue@2.6.12
@@ -3776,15 +3776,15 @@ packages:
     requiresBuild: true
     dev: true
 
+  /core-js/3.11.1:
+    resolution: {integrity: sha512-k93Isqg7e4txZWMGNYwevZL9MiogLk8pd1PtwrmFmi8IBq4GXqUaVW/a33Llt6amSI36uSjd0GWwc9pTT9ALlQ==}
+    requiresBuild: true
+    dev: false
+
   /core-js/3.9.0:
     resolution: {integrity: sha512-PyFBJaLq93FlyYdsndE5VaueA9K5cNB7CGzeCj191YYLhkQM0gdZR2SKihM70oF0wdqKSKClv/tEBOpoRmdOVQ==}
     requiresBuild: true
     dev: true
-
-  /core-js/3.9.1:
-    resolution: {integrity: sha512-gSjRvzkxQc1zjM/5paAmL4idJBFzuJoo+jDjF1tStYFMV2ERfD02HhahhCGXUyHxQRG4yFKVSdO6g62eoRMcDg==}
-    requiresBuild: true
-    dev: false
 
   /core-util-is/1.0.2:
     resolution: {integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=}
