@@ -16,7 +16,7 @@ specifiers:
   bootstrap-vue: 2.21.2
   core-js: 3.9.1
   eslint: 7.25.0
-  eslint-plugin-vue: 7.8.0
+  eslint-plugin-vue: 7.9.0
   node-sass: 5.0.0
   sass-loader: 10.1.1
   vue: 2.6.12
@@ -45,7 +45,7 @@ devDependencies:
   babel-eslint: 10.1.0_eslint@7.25.0
   babel-jest: 26.6.3
   eslint: 7.25.0
-  eslint-plugin-vue: 7.8.0_eslint@7.25.0
+  eslint-plugin-vue: 7.9.0_eslint@7.25.0
   node-sass: 5.0.0
   sass-loader: 10.1.1_node-sass@5.0.0
   vue-template-compiler: 2.6.12
@@ -4599,8 +4599,8 @@ packages:
       webpack: 4.43.0
     dev: true
 
-  /eslint-plugin-vue/7.8.0_eslint@7.25.0:
-    resolution: {integrity: sha512-OGrnPz+PuYL2HmVyBHxm4mRjxW2kfFCQE6Hw9G6qOHs/Pcu0srOlCCW0FMa8SLzIEqxl8WuKoBSPcMnrjUG2vw==}
+  /eslint-plugin-vue/7.9.0_eslint@7.25.0:
+    resolution: {integrity: sha512-2Q0qQp5+5h+pZvJKCbG1/jCRUYrdgAz5BYKGyTlp2NU8mx09u3Hp7PsH6d5qef6ojuPoCXMnrbbDxeoplihrSw==}
     engines: {node: '>=8.10'}
     peerDependencies:
       eslint: ^6.2.0 || ^7.0.0
