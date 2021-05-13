@@ -12,7 +12,7 @@ specifiers:
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.1.0
   babel-jest: 26.6.3
-  bootstrap: 5.0.0
+  bootstrap: 5.0.1
   bootstrap-vue: 2.21.2
   core-js: 3.12.1
   eslint: 7.26.0
@@ -26,7 +26,7 @@ specifiers:
 
 dependencies:
   axios: 0.21.1
-  bootstrap: 5.0.0
+  bootstrap: 5.0.1
   bootstrap-vue: 2.21.2_vue@2.6.12
   core-js: 3.12.1
   vue: 2.6.12
@@ -2985,8 +2985,8 @@ packages:
       popper.js: 1.16.1
     dev: false
 
-  /bootstrap/5.0.0:
-    resolution: {integrity: sha512-tmhPET9B9qCl8dCofvHeiIhi49iBt0EehmIsziZib65k1erBW1rHhj2s/2JsuQh5Pq+xz2E9bEbzp9B7xHG+VA==}
+  /bootstrap/5.0.1:
+    resolution: {integrity: sha512-Fl79+wsLOZKoiU345KeEaWD0ik8WKRI5zm0YSPj2oF1Qr+BO7z0fco6GbUtqjoG1h4VI89PeKJnMsMMVQdKKTw==}
     peerDependencies:
       '@popperjs/core': ^2.9.2
     dev: false
