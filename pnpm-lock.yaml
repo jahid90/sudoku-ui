@@ -18,7 +18,7 @@ specifiers:
   eslint: 7.27.0
   eslint-plugin-vue: 7.9.0
   node-sass: 6.0.0
-  sass-loader: 10.2.0
+  sass-loader: 11.1.1
   vue: 2.6.12
   vue-router: 3.5.1
   vue-template-compiler: 2.6.12
@@ -38,7 +38,7 @@ devDependencies:
   '@vue/cli-plugin-babel': 4.5.13_873a9ffdf7854442b9acc2f5aa2a81d5
   '@vue/cli-plugin-eslint': 4.5.13_484d0f9d6c1b78ed430d6398b4d560b0
   '@vue/cli-plugin-unit-jest': 4.5.13_dbd88a6cce7fa292931bda316ddf438f
-  '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+  '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
   '@vue/eslint-config-prettier': 6.0.0_eslint@7.27.0
   '@vue/test-utils': 1.2.0_ae554d8947d7e926b014dda25865f517
   babel-core: 7.0.0-bridge.0
@@ -47,7 +47,7 @@ devDependencies:
   eslint: 7.27.0
   eslint-plugin-vue: 7.9.0_eslint@7.27.0
   node-sass: 6.0.0
-  sass-loader: 10.2.0_node-sass@6.0.0
+  sass-loader: 11.1.1_node-sass@6.0.0
   vue-template-compiler: 2.6.12
 
 packages:
@@ -1874,7 +1874,7 @@ packages:
     dependencies:
       '@babel/core': 7.11.6
       '@vue/babel-preset-app': 4.5.13_vue@2.6.12
-      '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+      '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
       '@vue/cli-shared-utils': 4.5.13
       babel-loader: 8.1.0_ea7d4e5759825da5d38addd05d7f2392
       cache-loader: 4.1.0_webpack@4.43.0
@@ -1891,7 +1891,7 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0 < 7.0.0'
     dependencies:
-      '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+      '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
       '@vue/cli-shared-utils': 4.5.13
       eslint: 7.27.0
       eslint-loader: 2.2.1_eslint@7.27.0+webpack@4.43.0
@@ -1906,7 +1906,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+      '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
       '@vue/cli-shared-utils': 4.5.13
     dev: true
 
@@ -1918,7 +1918,7 @@ packages:
       '@babel/core': 7.11.6
       '@babel/plugin-transform-modules-commonjs': 7.10.4_@babel+core@7.11.6
       '@types/jest': 24.9.1
-      '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+      '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
       '@vue/cli-shared-utils': 4.5.13
       babel-core: 7.0.0-bridge.0_@babel+core@7.11.6
       babel-jest: 24.9.0_@babel+core@7.11.6
@@ -1945,10 +1945,10 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.13_8af0fc47c4a92487b000b9dfbc8756db
+      '@vue/cli-service': 4.5.13_5142f09c6ccbc1f54e150fbf294de3b7
     dev: true
 
-  /@vue/cli-service/4.5.13_8af0fc47c4a92487b000b9dfbc8756db:
+  /@vue/cli-service/4.5.13_5142f09c6ccbc1f54e150fbf294de3b7:
     resolution: {integrity: sha512-CKAZN4iokMMsaUyJRU22oUAz3oS/X9sVBSKAF2/shFBV5xh3jqAlKl8OXZYz4cXGFLA6djNuYrniuLAo7Ku97A==}
     engines: {node: '>=8'}
     hasBin: true
@@ -2020,7 +2020,7 @@ packages:
       pnp-webpack-plugin: 1.6.4
       portfinder: 1.0.26
       postcss-loader: 3.0.0
-      sass-loader: 10.2.0_node-sass@6.0.0
+      sass-loader: 11.1.1_node-sass@6.0.0
       ssri: 8.0.1
       terser-webpack-plugin: 1.4.4_webpack@4.43.0
       thread-loader: 2.1.3_webpack@4.43.0
@@ -7067,6 +7067,7 @@ packages:
       emojis-list: 3.0.0
       json5: 2.1.3
     dev: true
+    optional: true
 
   /locate-path/3.0.0:
     resolution: {integrity: sha512-7AO748wWnIhNqAuaty2ZWHkQHRSNfPVIsPIfwEOWO22AmaoVrWavlOcMR5nzTLNYvp36X220/maaRsrec1G65A==}
@@ -9265,14 +9266,14 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /sass-loader/10.2.0_node-sass@6.0.0:
-    resolution: {integrity: sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==}
+  /sass-loader/11.1.1_node-sass@6.0.0:
+    resolution: {integrity: sha512-fOCp/zLmj1V1WHDZbUbPgrZhA7HKXHEqkslzB+05U5K9SbSbcmH91C7QLW31AsXikxUMaxXRhhcqWZAxUMLDyA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
       node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0
       sass: ^1.3.0
-      webpack: ^4.36.0 || ^5.0.0
+      webpack: ^5.0.0
     peerDependenciesMeta:
       fibers:
         optional: true
@@ -9282,11 +9283,8 @@ packages:
         optional: true
     dependencies:
       klona: 2.0.4
-      loader-utils: 2.0.0
       neo-async: 2.6.2
       node-sass: 6.0.0
-      schema-utils: 3.0.0
-      semver: 7.3.2
     dev: true
 
   /sax/1.2.4:
@@ -9312,15 +9310,6 @@ packages:
   /schema-utils/2.7.1:
     resolution: {integrity: sha512-SHiNtMOUGWBQJwzISiVYKu82GiV4QYGePp3odlY1tuKO7gPtphAT5R/py0fA6xtbgLL/RvtJZnU9b8s0F1q0Xg==}
     engines: {node: '>= 8.9.0'}
-    dependencies:
-      '@types/json-schema': 7.0.6
-      ajv: 6.12.5
-      ajv-keywords: 3.5.2_ajv@6.12.5
-    dev: true
-
-  /schema-utils/3.0.0:
-    resolution: {integrity: sha512-6D82/xSzO094ajanoOSbe4YvXWMfn2A//8Y1+MUqFAJul5Bs+yn36xbK9OtNDcRVSBJ9jjeoXftM6CfztsjOAA==}
-    engines: {node: '>= 10.13.0'}
     dependencies:
       '@types/json-schema': 7.0.6
       ajv: 6.12.5
