@@ -8,7 +8,7 @@ specifiers:
   '@vue/cli-service': 4.5.13
   '@vue/eslint-config-prettier': 6.0.0
   '@vue/test-utils': 1.2.2
-  axios: 0.21.1
+  axios: 0.21.4
   babel-core: 7.0.0-bridge.0
   babel-eslint: 10.1.0
   babel-jest: 27.1.0
@@ -25,7 +25,7 @@ specifiers:
   vuex: 3.6.2
 
 dependencies:
-  axios: 0.21.1
+  axios: 0.21.4
   bootstrap: 5.1.1
   bootstrap-vue: 2.21.2_vue@2.6.14
   core-js: 3.17.2
@@ -2625,10 +2625,12 @@ packages:
     resolution: {integrity: sha512-3YDiu347mtVtjpyV3u5kVqQLP242c06zwDOgpeRnybmXlYYsLbtTrUBUm8i8srONt+FWobl5aibnU1030PeeuA==}
     dev: true
 
-  /axios/0.21.1:
-    resolution: {integrity: sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==}
+  /axios/0.21.4:
+    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
     dependencies:
-      follow-redirects: 1.12.1
+      follow-redirects: 1.14.3
+    transitivePeerDependencies:
+      - debug
     dev: false
 
   /babel-code-frame/6.26.0:
@@ -5134,6 +5136,17 @@ packages:
   /follow-redirects/1.12.1:
     resolution: {integrity: sha512-tmRv0AVuR7ZyouUHLeNSiO6pqulF7dYa3s19c6t+wz9LD69/uSzdMxJ2S91nTI9U3rt/IldxpzMOFejp6f0hjg==}
     engines: {node: '>=4.0'}
+    dev: true
+
+  /follow-redirects/1.14.3:
+    resolution: {integrity: sha512-3MkHxknWMUtb23apkgz/83fDoe+y+qr0TdgacGIA7bew+QLBo3vdgEN2xEsuXNivpFy4CyDhBBZnNZOtalmenw==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+    dev: false
 
   /for-in/1.0.2:
     resolution: {integrity: sha1-gQaNKVqBQuwKxybG4iAMMPttXoA=}
