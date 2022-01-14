@@ -18,7 +18,7 @@ specifiers:
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0
   node-sass: 6.0.1
-  sass-loader: 10.2.0
+  sass-loader: 10.2.1
   vue: 2.6.14
   vue-router: 3.5.3
   vue-template-compiler: 2.6.14
@@ -38,7 +38,7 @@ devDependencies:
   '@vue/cli-plugin-babel': 4.5.15_4c1e5ebbf041a85328f9984e4ede8f8a
   '@vue/cli-plugin-eslint': 4.5.15_62e16dd60e13dba96d3ac430272b4676
   '@vue/cli-plugin-unit-jest': 4.5.15_3ca2529360d3dc6148df6c0445843a57
-  '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+  '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
   '@vue/eslint-config-prettier': 6.0.0_eslint@7.32.0
   '@vue/test-utils': 1.3.0_9065e7474e033a8e4b95615fc8e6c36c
   babel-core: 7.0.0-bridge.0
@@ -47,7 +47,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0_eslint@7.32.0
   node-sass: 6.0.1
-  sass-loader: 10.2.0_node-sass@6.0.1
+  sass-loader: 10.2.1_node-sass@6.0.1
   vue-template-compiler: 2.6.14
 
 packages:
@@ -2053,7 +2053,7 @@ packages:
     dependencies:
       '@babel/core': 7.11.6
       '@vue/babel-preset-app': 4.5.15_vue@2.6.14
-      '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+      '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
       '@vue/cli-shared-utils': 4.5.15
       babel-loader: 8.1.0_ea7d4e5759825da5d38addd05d7f2392
       cache-loader: 4.1.0_webpack@4.43.0
@@ -2070,7 +2070,7 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0 < 7.0.0'
     dependencies:
-      '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+      '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
       '@vue/cli-shared-utils': 4.5.15
       eslint: 7.32.0
       eslint-loader: 2.2.1_eslint@7.32.0+webpack@4.43.0
@@ -2085,7 +2085,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+      '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
       '@vue/cli-shared-utils': 4.5.15
     dev: true
 
@@ -2097,7 +2097,7 @@ packages:
       '@babel/core': 7.11.6
       '@babel/plugin-transform-modules-commonjs': 7.10.4_@babel+core@7.11.6
       '@types/jest': 24.9.1
-      '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+      '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
       '@vue/cli-shared-utils': 4.5.15
       babel-core: 7.0.0-bridge.0_@babel+core@7.11.6
       babel-jest: 24.9.0_@babel+core@7.11.6
@@ -2124,10 +2124,10 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.15_6ea0837a110d10d5b4a7839bd1d980f3
+      '@vue/cli-service': 4.5.15_f11403f817a61609eac4cb4fb95cc164
     dev: true
 
-  /@vue/cli-service/4.5.15_6ea0837a110d10d5b4a7839bd1d980f3:
+  /@vue/cli-service/4.5.15_f11403f817a61609eac4cb4fb95cc164:
     resolution: {integrity: sha512-sFWnLYVCn4zRfu45IcsIE9eXM0YpDV3S11vlM2/DVbIPAGoYo5ySpSof6aHcIvkeGsIsrHFpPHzNvDZ/efs7jA==}
     engines: {node: '>=8'}
     hasBin: true
@@ -2199,7 +2199,7 @@ packages:
       pnp-webpack-plugin: 1.6.4
       portfinder: 1.0.26
       postcss-loader: 3.0.0
-      sass-loader: 10.2.0_node-sass@6.0.1
+      sass-loader: 10.2.1_node-sass@6.0.1
       ssri: 8.0.1
       terser-webpack-plugin: 1.4.4_webpack@4.43.0
       thread-loader: 2.1.3_webpack@4.43.0
@@ -9507,8 +9507,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /sass-loader/10.2.0_node-sass@6.0.1:
-    resolution: {integrity: sha512-kUceLzC1gIHz0zNJPpqRsJyisWatGYNFRmv2CKZK2/ngMJgLqxTbXwe/hJ85luyvZkgqU3VlJ33UVF2T/0g6mw==}
+  /sass-loader/10.2.1_node-sass@6.0.1:
+    resolution: {integrity: sha512-RRvWl+3K2LSMezIsd008ErK4rk6CulIMSwrcc2aZvjymUgKo/vjXGp1rSWmfTUX7bblEOz8tst4wBwWtCGBqKA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
@@ -9528,7 +9528,7 @@ packages:
       neo-async: 2.6.2
       node-sass: 6.0.1
       schema-utils: 3.0.0
-      semver: 7.3.2
+      semver: 7.3.5
     dev: true
 
   /sax/1.2.4:
@@ -9598,12 +9598,6 @@ packages:
 
   /semver/7.0.0:
     resolution: {integrity: sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==}
-    hasBin: true
-    dev: true
-
-  /semver/7.3.2:
-    resolution: {integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==}
-    engines: {node: '>=10'}
     hasBin: true
     dev: true
 
