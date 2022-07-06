@@ -18,7 +18,7 @@ specifiers:
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0
   node-sass: 6.0.1
-  sass-loader: 10.3.0
+  sass-loader: 10.3.1
   vue: 2.7.3
   vue-router: 3.5.4
   vue-template-compiler: 2.7.3
@@ -38,7 +38,7 @@ devDependencies:
   '@vue/cli-plugin-babel': 4.5.19_fc57595dab9593cf83524549ccf6ebad
   '@vue/cli-plugin-eslint': 4.5.19_3e0eca1407b8adafc6112ae2a1127e9b
   '@vue/cli-plugin-unit-jest': 4.5.19_889139d1f8f33fbda45d46ee33fb542f
-  '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+  '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
   '@vue/eslint-config-prettier': 7.0.0_eslint@7.32.0
   '@vue/test-utils': 1.3.0_47eef3204540366dce78f1a8483640e5
   babel-core: 7.0.0-bridge.0
@@ -47,7 +47,7 @@ devDependencies:
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0_eslint@7.32.0
   node-sass: 6.0.1
-  sass-loader: 10.3.0_node-sass@6.0.1
+  sass-loader: 10.3.1_node-sass@6.0.1
   vue-template-compiler: 2.7.3
 
 packages:
@@ -2009,7 +2009,7 @@ packages:
     dependencies:
       '@babel/core': 7.16.7
       '@vue/babel-preset-app': 4.5.19_vue@2.7.3
-      '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+      '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
       '@vue/cli-shared-utils': 4.5.19
       babel-loader: 8.1.0_00c3d75ecc5f837e7918e4361114050d
       cache-loader: 4.1.0_webpack@4.43.0
@@ -2028,7 +2028,7 @@ packages:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
       eslint: '>= 1.6.0 < 7.0.0'
     dependencies:
-      '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+      '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
       '@vue/cli-shared-utils': 4.5.19
       eslint: 7.32.0
       eslint-loader: 2.2.1_eslint@7.32.0+webpack@4.43.0
@@ -2047,7 +2047,7 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+      '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
       '@vue/cli-shared-utils': 4.5.19
     dev: true
 
@@ -2059,7 +2059,7 @@ packages:
       '@babel/core': 7.16.7
       '@babel/plugin-transform-modules-commonjs': 7.10.4_@babel+core@7.16.7
       '@types/jest': 24.9.1
-      '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+      '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
       '@vue/cli-shared-utils': 4.5.19
       babel-core: 7.0.0-bridge.0_@babel+core@7.16.7
       babel-jest: 24.9.0_@babel+core@7.16.7
@@ -2086,10 +2086,10 @@ packages:
     peerDependencies:
       '@vue/cli-service': ^3.0.0 || ^4.0.0-0
     dependencies:
-      '@vue/cli-service': 4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce
+      '@vue/cli-service': 4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7
     dev: true
 
-  /@vue/cli-service/4.5.19_3cff3dcb5ce2386b5bffb087e3bab2ce:
+  /@vue/cli-service/4.5.19_7d10e57372bab4cfd4b7e6ce17f8c1c7:
     resolution: {integrity: sha512-+Wpvj8fMTCt9ZPOLu5YaLkFCQmB4MrZ26aRmhhKiCQ/4PMoL6mLezfqdt6c+m2htM+1WV5RunRo+0WHl2DfwZA==}
     engines: {node: '>=8'}
     hasBin: true
@@ -2161,7 +2161,7 @@ packages:
       pnp-webpack-plugin: 1.6.4
       portfinder: 1.0.26
       postcss-loader: 3.0.0
-      sass-loader: 10.3.0_node-sass@6.0.1
+      sass-loader: 10.3.1_node-sass@6.0.1
       ssri: 8.0.1
       terser-webpack-plugin: 1.4.4_webpack@4.43.0
       thread-loader: 2.1.3_webpack@4.43.0
@@ -10060,8 +10060,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /sass-loader/10.3.0_node-sass@6.0.1:
-    resolution: {integrity: sha512-H2cLgK0PiH+5KsdSzw41uqx1ph7OP68+bK03JliezXjvSgKfddHyD7biCJge8ygHSEH0zo9sO8Jf6BN5sKs/Ig==}
+  /sass-loader/10.3.1_node-sass@6.0.1:
+    resolution: {integrity: sha512-y2aBdtYkbqorVavkC3fcJIUDGIegzDWPn3/LAFhsf3G+MzPKTJx37sROf5pXtUeggSVbNbmfj8TgRaSLMelXRA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
       fibers: '>= 3.1.0'
