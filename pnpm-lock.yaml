@@ -17,7 +17,7 @@ specifiers:
   core-js: 3.25.1
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0
-  node-sass: 7.0.1
+  node-sass: 7.0.3
   sass-loader: 10.3.1
   vue: 2.7.10
   vue-router: 4.1.5
@@ -46,8 +46,8 @@ devDependencies:
   babel-jest: 28.1.3
   eslint: 7.32.0
   eslint-plugin-vue: 7.20.0_eslint@7.32.0
-  node-sass: 7.0.1
-  sass-loader: 10.3.1_node-sass@7.0.1
+  node-sass: 7.0.3
+  sass-loader: 10.3.1_node-sass@7.0.3
   vue-template-compiler: 2.7.10
 
 packages:
@@ -2177,7 +2177,7 @@ packages:
       pnp-webpack-plugin: 1.6.4
       portfinder: 1.0.26
       postcss-loader: 3.0.0
-      sass-loader: 10.3.1_node-sass@7.0.1
+      sass-loader: 10.3.1_node-sass@7.0.3
       ssri: 8.0.1
       terser-webpack-plugin: 1.4.4_webpack@4.43.0
       thread-loader: 2.1.3_webpack@4.43.0
@@ -2608,7 +2608,7 @@ packages:
     resolution: {integrity: sha512-Zn4cw2NEqd+9fiSVWMscnjyQ1a8Yfoc5oBajLeo5w+YBHgDUcEBY2hS4YpTz6iN5f/2zQiktcuM6tS8x1p9dpA==}
     engines: {node: '>= 8.0.0'}
     dependencies:
-      debug: 4.2.0
+      debug: 4.3.4
       depd: 1.1.2
       humanize-ms: 1.2.1
     transitivePeerDependencies:
@@ -6040,7 +6040,7 @@ packages:
       signal-exit: 3.0.7
       string-width: 4.2.3
       strip-ansi: 6.0.1
-      wide-align: 1.1.3
+      wide-align: 1.1.5
     dev: true
 
   /gauge/4.0.4:
@@ -6514,7 +6514,7 @@ packages:
     dependencies:
       '@tootallnate/once': 1.1.2
       agent-base: 6.0.2
-      debug: 4.2.0
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6561,7 +6561,7 @@ packages:
     engines: {node: '>= 6'}
     dependencies:
       agent-base: 6.0.2
-      debug: 4.2.0
+      debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -8656,8 +8656,8 @@ packages:
     resolution: {integrity: sha512-CqyzN6z7Q6aMeF/ktcMVTzhAHCEpf8SOarwpzpf8pNBY2k5/oM34UHldUwp8VKI7uxct2HxSRdJjBaZeESzcxA==}
     dev: true
 
-  /node-sass/7.0.1:
-    resolution: {integrity: sha512-uMy+Xt29NlqKCFdFRZyXKOTqGt+QaKHexv9STj2WeLottnlqZEEWx6Bj0MXNthmFRRdM/YwyNo/8Tr46TOM0jQ==}
+  /node-sass/7.0.3:
+    resolution: {integrity: sha512-8MIlsY/4dXUkJDYht9pIWBhMil3uHmE8b/AdJPjmFn1nBx9X9BASzfzmsCy0uCCb8eqI3SYYzVPDswWqSx7gjw==}
     engines: {node: '>=12'}
     hasBin: true
     requiresBuild: true
@@ -8674,7 +8674,7 @@ packages:
       node-gyp: 8.4.1
       npmlog: 5.0.1
       request: 2.88.2
-      sass-graph: 4.0.0
+      sass-graph: 4.0.1
       stdout-stream: 1.4.1
       true-case-path: 1.0.3
     transitivePeerDependencies:
@@ -10360,18 +10360,18 @@ packages:
       - supports-color
     dev: true
 
-  /sass-graph/4.0.0:
-    resolution: {integrity: sha512-WSO/MfXqKH7/TS8RdkCX3lVkPFQzCgbqdGsmSKq6tlPU+GpGEsa/5aW18JqItnqh+lPtcjifqdZ/VmiILkKckQ==}
+  /sass-graph/4.0.1:
+    resolution: {integrity: sha512-5YCfmGBmxoIRYHnKK2AKzrAkCoQ8ozO+iumT8K4tXJXRVCPf+7s1/9KxTSW3Rbvf+7Y7b4FR3mWyLnQr3PHocA==}
     engines: {node: '>=12'}
     hasBin: true
     dependencies:
       glob: 7.1.6
       lodash: 4.17.21
-      scss-tokenizer: 0.3.0
+      scss-tokenizer: 0.4.3
       yargs: 17.5.1
     dev: true
 
-  /sass-loader/10.3.1_node-sass@7.0.1:
+  /sass-loader/10.3.1_node-sass@7.0.3:
     resolution: {integrity: sha512-y2aBdtYkbqorVavkC3fcJIUDGIegzDWPn3/LAFhsf3G+MzPKTJx37sROf5pXtUeggSVbNbmfj8TgRaSLMelXRA==}
     engines: {node: '>= 10.13.0'}
     peerDependencies:
@@ -10390,7 +10390,7 @@ packages:
       klona: 2.0.4
       loader-utils: 2.0.0
       neo-async: 2.6.2
-      node-sass: 7.0.1
+      node-sass: 7.0.3
       schema-utils: 3.0.0
       semver: 7.3.5
     dev: true
@@ -10433,8 +10433,8 @@ packages:
       ajv-keywords: 3.5.2_ajv@6.12.5
     dev: true
 
-  /scss-tokenizer/0.3.0:
-    resolution: {integrity: sha512-14Zl9GcbBvOT9057ZKjpz5yPOyUWG2ojd9D5io28wHRYsOrs7U95Q+KNL87+32p8rc+LvDpbu/i9ZYjM9Q+FsQ==}
+  /scss-tokenizer/0.4.3:
+    resolution: {integrity: sha512-raKLgf1LI5QMQnG+RxHz6oK0sL3x3I4FN2UDLqgLOGO8hodECNnNh5BXn7fAyBxrA8zVzdQizQ6XjNJQ+uBwMw==}
     dependencies:
       js-base64: 2.6.1
       source-map: 0.7.3
@@ -12246,12 +12246,6 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
-    dev: true
-
-  /wide-align/1.1.3:
-    resolution: {integrity: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==}
-    dependencies:
-      string-width: 2.1.1
     dev: true
 
   /wide-align/1.1.5:
