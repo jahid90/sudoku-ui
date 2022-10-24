@@ -20,7 +20,7 @@ specifiers:
   node-sass: 7.0.3
   sass-loader: 10.3.1
   vue: 2.7.13
-  vue-router: 4.1.5
+  vue-router: 4.1.6
   vue-template-compiler: 2.7.13
   vuex: 3.6.2
 
@@ -30,7 +30,7 @@ dependencies:
   bootstrap-vue: 2.22.0_vue@2.7.13
   core-js: 3.26.0
   vue: 2.7.13
-  vue-router: 4.1.5_vue@2.7.13
+  vue-router: 4.1.6_vue@2.7.13
   vuex: 3.6.2_vue@2.7.13
 
 devDependencies:
@@ -2347,8 +2347,8 @@ packages:
       - whiskers
     dev: true
 
-  /@vue/devtools-api/6.2.0:
-    resolution: {integrity: sha512-pF1G4wky+hkifDiZSWn8xfuLOJI1ZXtuambpBEYaf7Xaf6zC/pM29rvAGpd3qaGXnr4BAXU1Pxz/VfvBGwexGA==}
+  /@vue/devtools-api/6.4.5:
+    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
     dev: false
 
   /@vue/eslint-config-prettier/7.0.0_eslint@7.32.0:
@@ -11925,12 +11925,12 @@ packages:
     dev: true
     optional: true
 
-  /vue-router/4.1.5_vue@2.7.13:
-    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
+  /vue-router/4.1.6_vue@2.7.13:
+    resolution: {integrity: sha512-DYWYwsG6xNPmLq/FmZn8Ip+qrhFEzA14EI12MsMgVxvHFDYvlr4NXpVF5hrRH1wVcDP8fGi5F4rxuJSl8/r+EQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      '@vue/devtools-api': 6.2.0
+      '@vue/devtools-api': 6.4.5
       vue: 2.7.13
     dev: false
 
